@@ -22,8 +22,19 @@ function display_clock() {
     var hour = x.getHours();
     var minute = x.getMinutes();
     var second = x.getSeconds();
+    var daymessage = 'Good ';
     if (hour < 10) {
         hour = '0' + hour;
+    }
+    // greet message
+    if (hour >= 5 && hour <= 11) {
+        daymessage += 'Morning!';
+    } else if (hour == 12) {
+        daymessage += 'Noon!';
+    } else if (hour > 12 && hour <= 17) {
+        daymessage += 'Afternoon!';
+    } else {
+        daymessage += 'Evening!';
     }
     if (minute < 10) {
         minute = '0' + minute;
@@ -34,6 +45,7 @@ function display_clock() {
     x3 = x3 + ' ' + hour + ':' + minute + ':' + second;
 
     document.getElementById("clock").innerHTML = x3;
+    document.getElementById("day_message").innerHTML = daymessage + " Welcome to My Website!";
     refresh_clock();
 }
 
