@@ -1,156 +1,146 @@
-body {margin:0;}
+body {
+    margin: 0;
+}
 
 /* The navigation bar */
 .navbar {
-	overflow: hidden;
-	background-color: #333;
-	opacity: 0.75;
-	position: fixed;
-	top: 0;
-	width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* Links inside the navbar */
 .navbar a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-	background: #ddd;
-	color: black;
+    background: #ddd;
+    color: black;
 }
 
 /* Main content */
 .main {
-	padding: 16px;
-	margin-top: 30px; /* Add a top margin to avoid content overlay */
-	margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+    padding: 16px;
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
 }
 
-body #container
-{
-	background-color:black;
-	opacity: 0.2;
-	width:600px;
-	height: 300px;
-	margin:0 auto;
-	margin-top:200px;
-  border-radius:20px;
+body #container {
+    background-color: black;
+    opacity: 0.2;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 20px;
 }
- 
-body #header
-{
-  height:140px;
-  text-align:center;
-  margin:0px;
+
+body #header {
+    height: 140px;
+    text-align: center;
+    margin: 0px;
 }
- 
-body #header-content
-{
-	color:white;
-	height:75px;
-	
+
+body #header-content {
+    color: white;
+    height: 75px;
+
 }
- 
-body #header-content a
-{
-	font-family: "楷体";
-	color:white;
-	text-decoration:none;
-	font-size:22px;
-	letter-spacing:10px;
+
+body #header-content a {
+    font-family: "楷体";
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 10px;
 }
- 
-body #header-content a:hover
-{
-	text-decoration: underline;
+
+body #header-content a:hover {
+    text-decoration: underline;
 }
- 
-body #header-content p
-{
-	font-size:15px;
+
+body #header-content p {
+    font-size: 15px;
 }
- 
-body #content
-{
-    height:90px;
-    margin:0px;
+
+body #content {
+    height: 90px;
+    margin: 0px;
     text-align: center;
     vertical-align: middle;
 }
- 
-body #content #main-content a
-{
-	
-	color:white;
-	text-decoration: none;
+
+body #content #main-content a {
+
+    color: white;
+    text-decoration: none;
 }
 
-body #content #main-content a:hover
-{
-	text-decoration: underline;
-	color:white;
+body #content #main-content a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
- 
-body #footer hr2
-{
-	margin-top:300px;
+body #footer hr2 {
+    margin-top: 300px;
 }
- 
-body #footer #footer-content button
-{
-	border:0;
-	background-color:#000000;
-	font-size:20px;
-	border-radius: 10px;
-	float: right;
-	margin-right: 25px;
+
+body #footer #footer-content button {
+    border: 0;
+    background-color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 25px;
 }
 
 body #footer #footer-content button a {
-	color: #f2f2f2!important;
-	text-decoration: none;
+    color: #f2f2f2 !important;
+    text-decoration: none;
 }
 
 body #footer #footer-content button a:hover {
-	color: white!important;
-	text-decoration: underline;
+    color: white !important;
+    text-decoration: underline;
 }
 
 /* The footer bar */
 .footer {
-	position: fixed; /* Set the footer bar to fixed position */
-	bottom: 0; /* Position the footer bar at the bottom of the page */
-	width: 100%; /* Full width */
-	background-color: #333;
-	opacity: 0.75;
-	text-align:center;
-	padding: 8px;
+    position: fixed; /* Set the footer bar to fixed position */
+    bottom: 0; /* Position the footer bar at the bottom of the page */
+    width: 100%; /* Full width */
+    background-color: #333;
+    opacity: 0.75;
+    text-align: center;
+    padding: 8px;
 }
 
 .footer span {
-	color: #f2f2f2!important;
-	font-size: 14px;
-	text-align: center;
-	padding: 14px 16px;
+    color: #f2f2f2 !important;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 /* The scrolling text */
 .marquee-content {
-	padding: 0px 0px 0px 500px;
-	height: 48px;
+    padding: 0px 0px 0px 500px;
+    height: 48px;
 }
 
 marquee {
-	width: 100%;
-	padding: 15px 0;
-	color: #f2f2f2!important;
+    width: 100%;
+    padding: 15px 0;
+    color: #f2f2f2 !important;
 }
