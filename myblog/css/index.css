@@ -1,4 +1,40 @@
-body #container 
+body {margin:0;}
+
+/* The navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	opacity: 0.75;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+/* Main content */
+.main {
+	padding: 16px;
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+	margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
+
+body #container
 {
 	background-color:black;
 	opacity: 0.2;
@@ -87,4 +123,34 @@ body #footer #footer-content button a {
 body #footer #footer-content button a:hover {
 	color: white!important;
 	text-decoration: underline;
+}
+
+/* The footer bar */
+.footer {
+	position: fixed; /* Set the footer bar to fixed position */
+	bottom: 0; /* Position the footer bar at the bottom of the page */
+	width: 100%; /* Full width */
+	background-color: #333;
+	opacity: 0.75;
+	text-align:center;
+	padding: 8px;
+}
+
+.footer span {
+	color: #f2f2f2!important;
+	font-size: 14px;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+/* The scrolling text */
+.marquee-content {
+	padding: 0px 0px 0px 500px;
+	height: 48px;
+}
+
+marquee {
+	width: 100%;
+	padding: 15px 0;
+	color: #f2f2f2!important;
 }
