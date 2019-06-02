@@ -327,6 +327,7 @@ marquee {
 .links-list a:hover em {
     top: 45px;
     font-size: 1.1em;
+    color: #e5e5e5;
 }
 
 .links-list a:hover span {
