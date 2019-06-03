@@ -49,6 +49,34 @@
     content: "\f1db";
 }
 
+.fa-paw:before {
+    content: "\f1b0";
+}
+
+.fa-spinner:before {
+    content: "\f110";
+}
+
+.fa-magic:before {
+    content: "\f0d0";
+}
+
+.fa-scissors:before {
+    content: "\f0c4";
+}
+
+.fa-code:before {
+    content: "\f121";
+}
+
+.fa-bug:before {
+    content: "\f188";
+}
+
+.fa-paper-plane-o:before {
+    content: "\f1d9";
+}
+
 body {
     margin: 0;
     /*font-family: sans-serif, Arial, Helvetica;*/
@@ -720,6 +748,28 @@ img {
     text-decoration: none
 }
 
+.text-center {
+    text-align: center
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 0;
+}
+
+/* Style table headers and table data */
+th, td {
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #aaa;
+    min-width: 120px;
+    display: inline-block;
+    margin: 10px 10px 18px;
+}
+
 /* -- about -- */
 .img-holder {
     position: relative;
@@ -795,4 +845,21 @@ img {
     line-height: 0;
     padding: 0 1px;
     border-radius: 50%;
+}
+
+/* -- experience --*/
+.process {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.process .step {
+    width: 20px;
+    height: 20px;
+    background-color: #101010;
+    color: #fff;
+    margin-bottom: -16px;
+    margin-left: -16px;
+    padding-top: 4px;
 }
