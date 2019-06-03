@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Style the current/active link */
-.navbar a.active, .dropdown .dropbtn.active {
+.navbar a.active, .dropdown.active {
     background-color: #4CAF50;
 }
 
@@ -932,7 +932,7 @@ blockquote p{
 blockquote {
     margin: 20px 0;
     padding: 10px 20px;
-    border-left: 5px solid #7d92cd;
+    border-left: 5px solid #959595;
 }
 
 ul.category-list  li{
