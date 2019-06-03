@@ -38,6 +38,17 @@
 .fa-heart:before {
     content: "\f004"; }
 
+.fa-lightbulb:before {
+    content: "\f0eb"; }
+
+.fa-star-o:before {
+    content: "\f006";
+}
+
+.fa-circle-thin:before {
+    content: "\f1db";
+}
+
 body {
     margin: 0;
     /*font-family: sans-serif, Arial, Helvetica;*/
@@ -542,24 +553,26 @@ section {
 .row .right {
     float: right;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 33.3%;
     position: relative;
 }
 
 .row .left {
     float: left;
     min-height: 1px;
-    width: 63.7%
+    position: relative;
 }
 
-.texture,
-#msgSubmit,
-#fun-fact .counter li,
-.process li:first-child,
-.process li:last-child,
-.box-it:before {
+.row .col-6 {
+    width: 63.7%;
+}
+
+.row .col-3 {
+    width: 33.3%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.texture {
     background: url("../images/resume/texture.png");
 }
 
@@ -746,4 +759,40 @@ img {
     position: absolute;
     z-index: 98;
     width: 110px;
+}
+
+/* -- education --*/
+.time-line {
+    position: relative;
+}
+
+.time-item {
+    padding: 15px 0;
+    position: relative;
+}
+
+.time-year {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #f9f9f9;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.icon-holder-time {
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: -30px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #fff;
+    font-size: 30px;
+    line-height: 0;
+    padding: 0 1px;
+    border-radius: 50%;
 }
