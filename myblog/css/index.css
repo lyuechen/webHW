@@ -89,6 +89,14 @@
     content: "\f02c";
 }
 
+.fa-ellipsis-v:before {
+    content: "\f142";
+}
+
+.fa-heartbeat:before {
+    content: "\f21e";
+}
+
 body {
     margin: 0;
     /*font-family: sans-serif, Arial, Helvetica;*/
@@ -997,4 +1005,18 @@ ul.unstyled{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+/*======================================= sentence =======================================*/
+
+.sentence_container {
+    padding: 40px 85px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.sentence-holder {
+    border: 0;
+    padding: 10px 30px 30px;
+    background-color: #f2f2f2;
 }
